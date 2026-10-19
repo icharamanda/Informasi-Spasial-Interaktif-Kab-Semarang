@@ -32,9 +32,6 @@ Tahapan yang dikerjakan:
 
 Sistem koordinat yang digunakan adalah WGS 84 / UTM zona 49S (EPSG:32749).
 
-Data mentah (±2 GB) serta raster hasil crop dan indeks spektral (masing-masing ±180 MB)
-tidak diunggah karena melebihi batas ukuran file GitHub. Hasilnya ditampilkan dalam bentuk gambar.
-
 ## Metode Klasifikasi
 
 Indeks spektral dihitung dengan rumus:
@@ -64,13 +61,17 @@ Scene Classification Layer (SCL) Sentinel-2, lalu dicek secara visual pada citra
 | Perairan | 8,78 | 0,86% |
 | Awan | 0,72 | 0,07% |
 
-### Peta Komposit Klasifikasi
+### Peta Komposit (R)
 
-![Peta Komposit Klasifikasi](output/peta_komposit_klasifikasi.png)
+![Peta Komposit Klasifikasi dari R](output/peta_komposit_klasifikasi.png)
 
 ### Layout Peta (QGIS)
 
-![Peta Tutupan Lahan Semarang](Peta%20Tutupan%20Lahan%20Semarang.png)
+![Layout Peta Klasifikasi dari QGIS](gambar/layout_peta_klasifikasi.png)
+
+Seluruh pengolahan data dan klasifikasi dilakukan di R. QGIS digunakan untuk menyusun
+layout peta agar elemen kartografinya (legenda, skala, panah utara, dan informasi sumber)
+lebih rapi untuk keperluan cetak.
 
 <details>
 <summary><b>Lihat citra hasil crop dan peta indeks spektral</b></summary>
@@ -113,6 +114,7 @@ Setiap layer pada peta bisa dinyalakan atau dimatikan.
 - `klasifikasi tutupan lahan.R`: script analisis utama
 - `leaflet.R`: script dashboard interaktif
 - `output/`: hasil analisis berupa peta (.png), tabel (.csv), raster klasifikasi (.tif), dan batas wilayah (.shp, .gpkg)
+- `gambar/`: layout peta dari QGIS
 
 ## Cara Menjalankan di Komputer Sendiri
 
@@ -139,4 +141,4 @@ Setiap layer pada peta bisa dinyalakan atau dimatikan.
 
 ## Tools
 
-R, RStudio, terra, sf, ggplot2, Shiny, Leaflet, dan shinyapps.io (hosting dashboard)
+R, RStudio, terra, sf, ggplot2, Shiny, Leaflet, shinyapps.io (hosting dashboard), dan QGIS (untuk layout peta)
