@@ -68,6 +68,10 @@ Scene Classification Layer (SCL) Sentinel-2, lalu dicek secara visual pada citra
 
 ![Peta Komposit Klasifikasi](output/peta_komposit_klasifikasi.png)
 
+### Layout Peta (QGIS)
+
+![Peta Tutupan Lahan Semarang](Peta%20Tutupan%20Lahan%20Semarang.png)
+
 <details>
 <summary><b>Lihat citra hasil crop dan peta indeks spektral</b></summary>
 
