@@ -4,7 +4,7 @@ Repository ini berisi tugas besar mata kuliah **Pemrograman Spasial A**, yaitu a
 indeks spektral dan klasifikasi tutupan lahan Kabupaten Semarang menggunakan citra
 Sentinel-2 dan R. Hasil analisisnya juga saya sajikan dalam bentuk dashboard peta interaktif.
 
-**Buka dashboard online:** [Informasi Spasial Interaktif Kabupaten Semarang]([LINK_DASHBOARD](https://icharamanda.shinyapps.io/dashboard/))
+**Buka dashboard online:** [Informasi Spasial Interaktif Kabupaten Semarang](https://icharamanda.shinyapps.io/dashboard/)
 
 Oleh:
 **Icha Ramanda Putri (5016241119)** & **Katerine Thalia Syahiranadya (5016241126)**
@@ -94,7 +94,7 @@ Tabel lengkap:
 ## Dashboard Interaktif
 
 Dashboard dapat dibuka secara online, tanpa perlu menginstall R, di:
-**[Informasi Spasial Interaktif Kabupaten Semarang](LINK_DASHBOARD)**
+**[Informasi Spasial Interaktif Kabupaten Semarang](https://icharamanda.shinyapps.io/dashboard/)**
 
 Dashboard dibuat menggunakan Shiny Dashboard dan Leaflet, dengan empat menu:
 - **Klasifikasi Tutupan Lahan**: peta 4 kelas beserta batas kabupaten, batas kecamatan, dan nama kecamatan
